@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Air Pollution Awareness</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Air Pollution Awareness</h1>
+      <p>Learn about air pollution and how it affects the world around us.</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#causes">Causes</a></li>
+        <li><a href="#effects">Effects</a></li>
+        <li><a href="#solutions">Solutions</a></li>
+        <li><a href="#statistics">Statistics</a></li>
+        <li><a href="#aqi">Check AQI</a></li>
+      </ul>
+    </nav>
+
+    <div class="container" id="content"></div>
+
+    <div class="container" id="aqi">
+      <div class="card">
+        <h2 class="aqi-title">Air Quality Index (AQI)</h2>
+        <div class="aqi-form">
+          <input type="text" id="city-input" placeholder="Enter city name" />
+          <button onclick="checkAQI()">Check Air Quality</button>
+        </div>
+        <div id="aqi-result"></div>
+      </div>
+    </div>
+
+    <footer>© 2024 Air Pollution Awareness. All rights reserved.</footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
